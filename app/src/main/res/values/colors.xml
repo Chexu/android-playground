@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2b2f3b</color>
+    <color name="colorPrimaryDark">#2b2f3b</color>
+    <color name="colorAccent">#a23678</color>
+    <color name="black_overlay">#2b2f3b</color>
+    <color name="windowBackground">@color/white</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="btnTextColor">#fff</color>
+    <color name="colorButtonNormal">#a23678</color>
+    <color name="error">#fff44336</color>
+    <color name="success">#43A047</color>
+    <color name="dark_grey">#575757</color>
+    <color name="light_grey">#eeeeee</color>
+    <color name="white">#fff</color>
+
+    <!-- Text color of the search box text as entered by user  -->
+    <color name="searchbox_text_color">#000000</color>
+    <!-- Background color of the search box -->
+    <color name="searchbox_background_color">#ffffff</color>
+    <!-- Text color of the search box hint text  -->
+    <color name="searchbox_hint_text_color">#a4a4a4</color>
+    <color name="searchbox_icon_tint">#a4a4a4</color>
+    <color name="search_shortcut_background_color">#b6b6b6</color>
+    <color name="search_shortcut_icon_color">#f8f8f8</color>
+
+    <color name="default_color_expanded">#F0F0F0</color>
+</resources>
