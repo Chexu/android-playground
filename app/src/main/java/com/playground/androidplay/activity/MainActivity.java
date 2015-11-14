@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity
         supportActionBar.setDisplayHomeAsUpEnabled(false);
         supportActionBar.setDisplayShowCustomEnabled(true); // enable overriding the default toolbar layout
         supportActionBar.setDisplayShowTitleEnabled(false); // disable the default title element here (for centered title)
-
+        supportActionBar.setTitle(getResources().getString(R.string.app_name));
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.requestFocus();
         fab.setOnClickListener(new View.OnClickListener() {
@@ -67,14 +67,14 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        menuBtnImage.setOnClickListener(this);
+        /*menuBtnImage.setOnClickListener(this);
         appCompatSearchEditText.setOnFocusChangeListener(this);
 
         menuBtnImage.setImageDrawable(getResources().getDrawable(R.drawable.menu_item_animator_reverse));
         menuAnimationStartArrow = (AnimationDrawable) menuBtnImage.getDrawable();
 
         menuBtnImage.setImageDrawable(getResources().getDrawable(R.drawable.menu_item_animator));
-        menuAnimationStartMenu = (AnimationDrawable) menuBtnImage.getDrawable();
+        menuAnimationStartMenu = (AnimationDrawable) menuBtnImage.getDrawable();*/
 
 
     }
